@@ -23,7 +23,9 @@ function Home() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const newTask = { taskName: task, isCompleted: false };
-    setTaskArray([...taskArray, newTask]);
+    setTimeout(() => {
+      setTaskArray([...taskArray, newTask]);
+    }, 2000);
     setTask("");
   };
 
