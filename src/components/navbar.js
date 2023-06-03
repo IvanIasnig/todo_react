@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="navbar navbar-dark bg-dark mt-2">
         <div className="navbar-brand ms-2">To-do-list</div>
         <Link to={isInCompletedPage ? '/' : '/completed'} className='btn btn-success me-2 active'>
-        {isInCompletedPage ? 'Go to Home' : 'Go to Completed'}
+        {isInCompletedPage ? 'All tasks' : 'Completed tasks'}
       </Link>
       </nav>
   );
