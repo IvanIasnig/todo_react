@@ -88,7 +88,7 @@ function Home() {
         </div>
         <button
           type="submit"
-          className="btn btn-primary mb-3 mt-2"
+          className="btn btn-primary mb-5 mt-1"
           id="submitButton"
         >
           Submit
